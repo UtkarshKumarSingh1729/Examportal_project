@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.text-center{
+    text-align: center;
+}
+
+html,body{
+  height: 100%;
+  background-color: rgb(40, 34, 34);
+  background-image: url('assets\uwp2846440.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0 0;
+  }
+  /* 100% {
+    background-position: 200% 0;
+  } */
+}
+
+@media screen and (max-width: 1080px) {
+  html,body{
+    background-size: contain;
+  }
+}
+
+h1{
+  color: white;
+}
+mat-hint{
+  color:aliceblue;
+}
+
+.ml20{
+  margin-left: 20px !important;
+}
+.mr20{
+  margin-right: 20px !important;
+}
+.mt20{
+  margin-top: 20px !important;
+}
+.mb20{
+  margin-bottom: 20px !important;
+}
+
+.ml10{
+  margin-left: 10px !important;
+}
+.mr10{
+  margin-right: 10px !important;
+}
+.mt10{
+  margin-top: 10px !important;
+}
+.mb10{
+  margin-bottom: 10px !important;
+}
